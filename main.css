@@ -1,6 +1,44 @@
-body    {background: beige;
-        color: blueviolet}
-p {font: bold 16px/1.5 Helvetica, Arial, sans-serif;}
-p { letter-spacing: 3px;}
-p {border-right-color: pink}
-table {table-layout: auto;}
+body {
+  background: #e7d4bf;
+  color: black
+}
+
+div {
+  padding: 10px;
+}
+
+.blueElement {
+  background-color: #b7d2e7;
+}
+
+.greenElement {
+  background-color: #c4dfb9;
+}
+
+.aquaElement {
+  background-color: #95cecb;
+}
+
+.yellowElement {
+  background-color: #E4E38F;
+}
+
+.pinkElement {
+  background-color: #DAAFB1;
+}
+
+p {
+  font: bold 16px/1.5 Helvetica, Arial, sans-serif;
+}
+
+p {
+  letter-spacing: 3px;
+}
+
+p {
+  border-right-color: pink
+}
+
+table {
+  table-layout: auto;
+}
