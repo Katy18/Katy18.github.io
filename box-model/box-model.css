@@ -1,11 +1,23 @@
 body {
   margin: 20px;
 }
-
 * {
   box-sizing: border-box;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-botton: 15px;
 }
-
+h1,h3 {height: 1px;
+       width: 600px;
+       padding: 0px;
+       box-sizing: 4px border-box;
+       padding-left: 2px;
+       padding-right: 2px;
+       padding-bottom: 2px;
+       padding-top: 2px
+    
+}
 #wrapper {
   border: 2px dotted slategray;
   width: 800px;
