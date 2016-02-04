@@ -21,18 +21,22 @@ div {
 
 .greenElement {
   background-color: #c4dfb9;
+  margin: 0;
 }
 
 .aquaElement {
   background-color: #95cecb;
+  margin: 0;
 }
 
 .yellowElement {
   background-color: #E4E38F;
+  margin: 0;
 }
 
 .pinkElement {
   background-color: #DAAFB1;
+  margin: 0;
 }
 
 p {
