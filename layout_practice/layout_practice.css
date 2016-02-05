@@ -1,0 +1,36 @@
+* {
+    box-sizing:border-box;
+}
+.main-container {
+    width: 900px;
+    margin: 0 auto 0 auto;
+}
+header{
+    display: flex;
+    background: purple;
+}
+.branding {
+    background:black;
+    width: 150px;
+    height: 45px;
+    margin-right: auto;
+}
+    .pill-button{
+display: inline-block;
+background: gray;
+padding:10px 30px 10px 30px;
+border-radius:20px; 
+color: white;
+text decoration: none; 
+}   
+    
+/*Big Promo */
+#big-promo {
+padding-top: 200 px;
+    background: pink;
+
+}
+.promo-message {  
+width:60%;
+padding:50px;
+}
