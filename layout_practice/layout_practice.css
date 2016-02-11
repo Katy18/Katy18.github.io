@@ -8,7 +8,7 @@
 }
 
 .promo-container {
-  background: aqua;
+  background: cornsilk;
 }
 
 header {
@@ -52,28 +52,37 @@ header {
 
 /*Product Features */
 
-.product-buy-it-now, .product-features {
+.product-features, .product-buy-it-now {
   display: flex;
-  background: pink;
 }
 
 .feature {
   text-align: center;
-  border: 1px solid black;
   padding: 20px;
 }
 
 .feature-image {
-  background: red;
   width: 200 px;
   height: 200px;
   margin: 0 auto 0 auto;
   border-radius: 50%;
   overflow: hidden;
 }
+
+
 .product-buy-it-now {
-    align-items:center;
+    align-items: center;
 }
+
 .product-info {
-    text-align:right;
+    text-align: right;
+}
+
+/* Product Reviews */
+
+#product-reviews {
+    background: skyblue;
+    color: white;
+    text-align: center;
+    padding: 50px;
 }
