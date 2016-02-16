@@ -86,3 +86,13 @@ header {
     text-align: center;
     padding: 50px;
 }
+.footer-container {
+    background: pink;
+    color:black;
+    text-align:left;
+    padding:10px;
+}
+.footer-text {
+text-align:right;
+
+}
