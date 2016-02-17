@@ -86,13 +86,16 @@ header {
     text-align: center;
     padding: 50px;
 }
-.footer-container {
+footer {
     background: pink;
-    color:black;
-    text-align:left;
-    padding:10px;
+    
 }
-.footer-text {
-text-align:right;
-
+.footer-copyright {
+        text-align:right;
+        flex 1;
+        background: pink;
 }
+.footer-links {
+        flex 2;
+        background: violet;
+    }
