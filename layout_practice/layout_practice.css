@@ -59,10 +59,11 @@ header {
 .feature {
   text-align: center;
   padding: 20px;
+  flex: 1;
 }
 
 .feature-image {
-  width: 200 px;
+  width: 200px;
   height: 200px;
   margin: 0 auto 0 auto;
   border-radius: 50%;
@@ -86,16 +87,17 @@ header {
     text-align: center;
     padding: 50px;
 }
+
 footer {
-    background: pink;
-    
+    display: flex;
 }
+
 .footer-copyright {
-        text-align:right;
-        flex 1;
-        background: pink;
+    text-align: right;
+    flex: 1;
+    background: pink;
 }
 .footer-links {
-        flex 2;
-        background: violet;
-    }
+    flex: 1;
+    background: violet;
+}
