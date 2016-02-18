@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+/* Container One */
+
 .container-one {
     border: 4px solid black;
     width:960px;
@@ -39,6 +41,8 @@
     right: -752px;
     background: yellow;
 }
+
+/* Container Two */
 
 .container-two {
     border: 4px solid black;
@@ -80,4 +84,41 @@
     right: -712px;
     top: -1686px;
     background: yellow;
+}
+
+/* Container Three */
+
+.container-three {
+    border: 4px solid black;
+    width:960px;
+    height:575px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    margin: auto;
+}
+
+#horizontal_red-box {
+    width: 920px;
+    height: 120px;
+    background: red;
+}
+
+#vertical_left-green-box {
+    position:relative;
+    width: 175px;
+    height: 395px;
+    top: 20px;
+    padding-right: 20px;
+    background: green;
+}
+
+#square_blue-box {
+    position:relative;
+    width: 730px;
+    height: 395px;
+    left: 190px;
+    top: -375px;
+    background: blue;
 }
