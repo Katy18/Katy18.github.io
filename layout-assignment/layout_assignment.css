@@ -39,3 +39,45 @@
     right: -752px;
     background: yellow;
 }
+
+.container-two {
+    border: 4px solid black;
+    width:960px;
+    height:570px;
+    margin:auto;
+}
+
+#vertical_red-box {
+    position:relative;
+    width: 240px;
+    height: 562px;
+    right:0px;
+    background: red;
+}
+
+#vertical_green-box {
+    position:relative;
+    width: 240px;
+    height: 562px;
+    right:-240px;
+    top: -562px;
+    background: green;
+}
+
+#vertical_blue-box {
+    position:relative;
+    width: 240px;
+    height: 562px;
+    right:-480px;
+    top: -1124px;
+    background: blue;
+}
+
+#vertical_yellow-box {
+    position:relative;
+    width: 240px;
+    height: 562px;
+    right: -712px;
+    top: -1686px;
+    background: yellow;
+}
