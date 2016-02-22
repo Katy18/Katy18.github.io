@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+.robot {
+    border: 1px solid white;
+    width: 1080px;
+    height: 2060px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Head */
+
+.head {
+    border: 1px solid white;
+    width:960px;
+    height:570px;
+    margin:auto;
+}
+
+    #head-contents {
+    border: 1px solid gray;
+    position:relative;
+    width: 360px;
+    height: 320px;
+    right:-240px;
+    top: 252px;
+    background: white;
+}
+    
+
+/* abdomen */
+
+.abdomen {
+    border: 1px solid white;
+    width:960px;
+    height:328px;
+    margin:auto;
+}
+
+#abdomen-contents {
+    border: 1px solid gray;
+    position:relative;
+    width: 360px;
+    height: 320px;
+    right:-240px;
+    top: 0px;
+    background: white;
+}
+
+
+
+
+/* extremities */
+
+.extremities {
+    border: 1px solid white;
+    width:960px;
+    height:575px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    margin: auto;
+}
+
+
+#extremities-contents {
+    border: 1px solid gray;
+    position:relative;
+    width: 360px;
+    height: 320px;
+    right:-224px;
+    top: -25px;
+    background: white;
+}
