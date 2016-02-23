@@ -3,7 +3,7 @@
 }
 
 .robot {
-    border: 1px solid white;
+    border: 2px solid black;
     width: 1080px;
     height: 2060px;
     padding-top: 40px;
@@ -13,14 +13,14 @@
 /* Head */
 
 .head {
-    border: 1px solid white;
+    border: 2px solid black;
     width:960px;
     height:570px;
     margin:auto;
 }
 
     #head-contents {
-    border: 1px solid gray;
+    border: 2px solid black;
     position:relative;
     width: 360px;
     height: 320px;
@@ -33,14 +33,14 @@
 /* abdomen */
 
 .abdomen {
-    border: 1px solid white;
+    border: 2px solid black;
     width:960px;
     height:328px;
     margin:auto;
 }
 
 #abdomen-contents {
-    border: 1px solid gray;
+    border: 2px solid black;
     position:relative;
     width: 360px;
     height: 320px;
@@ -55,7 +55,7 @@
 /* extremities */
 
 .extremities {
-    border: 1px solid white;
+    border: 2px solid black;
     width:960px;
     height:575px;
     padding-top: 16px;
@@ -67,7 +67,7 @@
 
 
 #extremities-contents {
-    border: 1px solid gray;
+    border: 2px solid black;
     position:relative;
     width: 360px;
     height: 320px;
