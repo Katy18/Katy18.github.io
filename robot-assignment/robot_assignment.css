@@ -3,7 +3,7 @@
 }
 
 .robot {
-    border: 1px solid white;
+    border: 1px solid #FFFFFF;
     width: 1080px;
     height: 2060px;
     padding-top: 40px;
@@ -13,25 +13,27 @@
 /* Head */
 
 .head {
-    border: 1px solid white;
+    border: 1px solid #FFFFFF;
     width:960px;
     height:570px;
     margin:auto;
 }
 
 .head-contents {
-    border: 4px solid gray;
+    border: 4px solid #A39D9D;
+    border-radius: 50px;
+    background: #F4F0E1;
     position:relative;
     padding: 10px;
     width: 160px;
     height: 160px;
     right:-340px;
     top: 410px;
-    background: white;
 }
 
 .eye-left {
-    border:2px solid black;
+    border:2px solid #A39D9D;
+    border-radius: 50px;
     position: relative;
     width:40px;
     height: 40px;
@@ -40,6 +42,7 @@
 
 .eye-left_pupil {
     border:1px solid #6998cc;
+    border-radius: 50px;
     background: #6998cc;
     position: relative;
     width: 20px;
@@ -49,7 +52,8 @@
 }
 
 .eye-right {
-    border:2px solid black;
+    border:2px solid #A39D9D;
+    border-radius: 50px;
     position: relative;
     float: right;
     width: 40px;
@@ -59,6 +63,7 @@
 
 .eye-right_pupil {
     border:1px solid #6998cc;
+    border-radius: 50px;
     background: #6998cc;
     position: relative;
     width: 20px;
@@ -68,7 +73,8 @@
 }
 
 .nose {
-    border:2px solid gray;
+    border:2px solid #A39D9D;
+    border-radius: 50px;
     position: relative;
     width: 20px;
     height: 20px;
@@ -77,27 +83,28 @@
 }
 
 .mouth {
-    border:4px solid #F44E66;
-    background: #F44E66;
+    border:6px solid #F44E66;
+    border-radius: 15px;
+    background: #F4E9E9;
     position: relative;
     width: 40px;
     height: 30px;
     left: 43px;
     top: 5px;
-    border-radius: 15px;
+
 }
 
 /* Abdomen */
 
 .abdomen {
-    border: 1px solid white;
+    border: 1px solid #FFFFFF;
     width:960px;
     height:328px;
     margin:auto;
 }
 
 .abdomen-contents {
-    border: 1px solid white;
+    border: 1px solid #FFFFFF;
     position:relative;
     width: 360px;
     height: 352px;
@@ -107,7 +114,9 @@
 }
 
 .neck {
-    border: 4px solid gray;
+    border: 4px solid #A39D9D;
+    border-radius: 9px;
+    background: #F4F0E1;
     position:relative;
     width: 40px;
     height: 40px;
@@ -116,7 +125,9 @@
 }
 
 .clavicle {
-    border: 4px solid gray;
+    border: 4px solid #A39D9D;
+    border-radius:50px;
+    background: #F4F0E1;
     position:relative;
     width: 240px;
     height: 40px;
@@ -125,7 +136,9 @@
 }
 
 .arm-left {
-    border: 4px solid gray;
+    border: 4px solid #A39D9D;
+    border-radius: 50px;
+    background: #F4F0E1;
     position:relative;
     width: 40px;
     height: 240px;
@@ -134,8 +147,8 @@
 }
 
 .finger1-left {
-    border: 1px solid gray;
-    background: gray;
+    border: 1px solid #A39D9D;
+    background: #A39D9D;
     position: relative;
     width: 4px;
     height: 22px;
@@ -144,8 +157,8 @@
 }
 
 .finger2-left {
-    border: 1px solid gray;
-    background: gray;
+    border: 1px solid #A39D9D;
+    background: #A39D9D;
     position: relative;
     width: 4px;
     height: 26px;
@@ -153,8 +166,8 @@
     top: -63px;
 }
 .finger3-left {
-    border: 1px solid gray;
-    background: gray;
+    border: 1px solid #A39D9D;
+    background: #A39D9D;
     position: relative;
     width: 4px;
     height: 29px;
@@ -163,8 +176,8 @@
 }
 
 .finger4-left {
-    border: 1px solid gray;
-    background: gray;
+    border: 1px solid #A39D9D;
+    background: #A39D9D;
     position: relative;
     width: 4px;
     height: 26px;
@@ -173,8 +186,8 @@
 }
 
 .thumb-left {
-    border: 1px solid gray;
-    background: gray;
+    border: 1px solid #A39D9D;
+    background: #A39D9D;
     position: relative;
     width: 6px;
     height: 20px;
@@ -183,7 +196,9 @@
 }
 
 .arm-right {
-    border: 4px solid gray;
+    border: 4px solid #A39D9D;
+    border-radius: 50px;
+    background: #F4F0E1;
     position:relative;
     width: 40px;
     height: 240px;
@@ -192,8 +207,8 @@
 }
 
 .finger1-right {
-    border: 1px solid gray;
-    background: gray;
+    border: 1px solid #A39D9D;
+    background: #A39D9D;
     position: relative;
     width: 4px;
     height: 22px;
@@ -202,8 +217,8 @@
 }
 
 .finger2-right {
-    border: 1px solid gray;
-    background: gray;
+    border: 1px solid #A39D9D;
+    background: #A39D9D;
     position: relative;
     width: 4px;
     height: 26px;
@@ -212,8 +227,8 @@
 }
 
 .finger3-right {
-    border: 1px solid gray;
-    background: gray;
+    border: 1px solid #A39D9D;
+    background: #A39D9D;
     position: relative;
     width: 4px;
     height: 29px;
@@ -222,8 +237,8 @@
 }
 
 .finger4-right {
-    border: 1px solid gray;
-    background: gray;
+    border: 1px solid #A39D9D;
+    background: #A39D9D;
     position: relative;
     width: 4px;
     height: 26px;
@@ -232,8 +247,8 @@
 }
 
 .thumb-right {
-    border: 1px solid gray;
-    background: gray;
+    border: 1px solid #A39D9D;
+    background: #A39D9D;
     position: relative;
     width: 6px;
     height: 20px;
@@ -242,7 +257,9 @@
 }
 
 .torso {
-    border: 4px solid gray;
+    border: 4px solid #A39D9D;
+    border-radius: 50px;
+    background: #F4F0E1;
     position:relative;
     width: 200px;
     height: 260px;
@@ -251,7 +268,8 @@
 }
 
 .tie {
-    border: 4px solid gray;
+    border: 4px solid #A39D9D;
+    background: ivory;
     position:relative;
     width: 40px;
     height: 132px;
@@ -310,7 +328,7 @@
 /* extremities */
 
 .extremities {
-    border: 1px solid white;
+    border: 1px solid #FFFFFF;
     width:960px;
     height:575px;
     padding-top: 16px;
@@ -322,11 +340,67 @@
 
 
 .extremities-contents {
-    border: 1px solid gray;
+    border: 1px solid #FFFFFF;
     position:relative;
     width: 360px;
     height: 320px;
     right:-224px;
     top: 0px;
     background: white;
+}
+
+.hip {
+    border: 4px solid #5B3712;
+    border-radius: 50px;
+    background: #5B3712;
+    position: relative;
+    width: 240px;
+    height: 20px;
+    left: 59px;
+    top: -9px;
+}
+
+.leg-left {
+    border: 4px solid #5B3712;
+    border-radius: 50px;
+    background: #5B3712;
+    position: relative;
+    width: 40px;
+    height: 280px;
+    left: 59px;
+    top: -10px;
+    
+}
+
+.leg-right {
+    border: 4px solid #5B3712;
+    border-radius: 50px;
+    background: #5B3712;
+    position: relative;
+    width: 40px;
+    height: 280px;
+    left: 259px;
+    top: -290px;
+}
+
+.roller {
+    border: 4px solid #A39D9D;
+    background: gray;
+    border-radius: 50px;
+    position: relative;
+    width: 320px;
+    height: 65px;
+    left: 20px;
+    top: -290px;
+    }
+
+.inside-roller {
+    border: 4px solid #A39D9D;
+    background: #FFFFFF;
+    border-radius: 20px;
+    position: relative;
+    width: 300px;
+    height: 30px;
+    left: 6px;
+    top: 15px;
 }
