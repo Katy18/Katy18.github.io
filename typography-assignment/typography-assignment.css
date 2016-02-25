@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+display: inline-block;
+}
+
+.news-container {
+    border: 4px black;
+    width: 808px;
+    margin: auto;
+    padding: 10px;
+    postion: relative;
+}
+
+.leading-story {
+    border: 2px black;
+    width: 800px;
+    height: 20px;
+    position: absolute;
+}
+
+.newspaper-name {
+    border: 2px black;
+    width: 800px;
+    height 60px;
+    position: absolute;
+}
+
+.date-author {
+    border: 2px black;
+    width: 800px;
+    height: 20px;
+    position:absolute;
+}
+
+/* Left Column */
+
+.left-column {
+    border: 2px black;
+    width: 310px;
+    height: 620px;
+    position: absolute;
+}
+
+.top-left {
+    border: 2px black;
+    width: 310px;
+    height: 240px;
+    position: absolute;
+}
+
+.title1-left {
+    border: 2px black;
+    width: 320px;
+    height: 20px;
+    position: absolute:
+}
+
+.text1-left {
+    border: 2px black;
+    width: 320px;
+    height: 240px;
+    position:absolute;
+}
+
+.pix1 {
+    border: 2px black;
+    width: 120px;
+    height: 140px;
+    position: relative;
+}
+
+.botton-left {
+    border: 2px black;
+    width: 320px;
+    height: 340px;
+    position: absolute;
+}
+
+.title2-left {
+    border 2px black;
+    width: 320px;
+    height: 20px;
+    position: absolute;
+}
+
+.text2-left {
+    border: 2px black;
+    width: 320px;
+    height: 320px;
+    position: absolute;
+}
+
+.pix2 {
+    border: 2px black;
+    width: 140px;
+    height: 160px;
+    position: relative;
+}
+
+/* Right Column */
+
+.right-column {
+    border: 2px black;
+    width: 440px;
+    height: 620px;
+    position: absolute;
+}
+
+.top-right {
+    border: 2px black;
+    width: 440px;
+    height: 380px;
+    position: absolute;
+}
+
+.pix-top-right {
+    border: 2px black;
+    width: 260px;
+    height: 260px;
+    position: relative;
+}
+
+title1-right {
+    border: 2px black;
+    width: 180px;
+    height: 20px;
+    position: relative;
+}
+
+.text1-right {
+    border: 2px black;
+    width: 440px;
+    height: 360px;
+    position: relative;
+}
+
+.bottom-right {
+    border: 2px black;
+    width: 440px;
+    height: 220px;
+    position: absolute;
+}
+
+.title2-right {
+    border: 2px black;
+    width: 440px;
+    height: 20px;
+    position: absolute;
+}
+
+.text2-right {
+    border: 2px black;
+    width: 440px;
+    height: 180px;
+    position: absolute;
+}
