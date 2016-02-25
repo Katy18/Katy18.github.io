@@ -8,15 +8,19 @@ p {
 
 .news-container {
   border: 4px black;
-  width: 808px;
+  width: 800px;
   height: 740px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
   margin: auto;
   position: absolute;
 }
 
 .leading-story {
   border: 2px black;
-  width: 800px;
+  width: 750px;
   height: 20px;
   position: absolute;
   top: 0px;
@@ -25,7 +29,7 @@ p {
 
 .newspaper-name {
   border: 2px black;
-  width: 800px;
+  width: 750px;
   height 60px;
   top: 30px;
   position: absolute;
@@ -33,7 +37,7 @@ p {
 
 .date-author {
   border: 2px black;
-  width: 800px;
+  width: 750px;
   height: 20px;
   position: absolute;
   top: 80px;
@@ -44,16 +48,24 @@ p {
 
 .left-column {
   border: 2px black;
-  width: 310px;
+  width: 290px;
   height: 620px;
   top: 120px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
   position: absolute;
 }
 
 .top-left {
   border: 2px black;
-  width: 310px;
+  width: 290px;
   height: 260px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
   top: 0px;
   position: relative;
 }
@@ -69,6 +81,10 @@ p {
   border: 2px black;
   width: 320px;
   height: 240px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
   position: absolute;
 }
 
@@ -85,6 +101,10 @@ p {
   width: 320px;
   height: 340px;
   top: 300px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
   position: absolute;
 }
 
@@ -92,6 +112,7 @@ p {
   border 2px black;
   width: 320px;
   height: 20px;
+  top: 0px;
   position: absolute;
 }
 
@@ -100,6 +121,10 @@ p {
   width: 320px;
   height: 320px;
   top: 30px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
   position: absolute;
 }
 
@@ -116,9 +141,13 @@ p {
 
 .right-column {
   border: 2px black;
-  width: 440px;
+  width: 400px;
   height: 620px;
   float: right;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
   position: relative;
 }
 
@@ -126,7 +155,11 @@ p {
   border: 2px black;
   width: 440px;
   height: 380px;
-  position: absolute;
+  padding-top: 20px;
+  padding-right: -20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  position:relative;
 }
 
 .pix-top-right {
@@ -149,7 +182,7 @@ p {
   border: 2px black;
   width: 440px;
   height: 360px;
-  top: -240px;
+  top: -200px;
   position: relative;
   float: right;
 }
@@ -158,7 +191,7 @@ p {
   border: 2px black;
   width: 440px;
   height: 220px;
-  top: 400px;
+  top: 10px;
   position: relative;
 }
 
@@ -166,6 +199,11 @@ p {
   border: 2px black;
   width: 440px;
   height: 20px;
+  top: -50px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
   position: absolute;
 }
 
