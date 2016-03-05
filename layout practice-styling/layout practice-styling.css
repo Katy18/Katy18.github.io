@@ -17,7 +17,7 @@ header {
     display: flex;
 }
 
-.pill-button .pill-button-spice .promo {
+.pill-button .pill-button-spice .promo .pill-button promo{
     font-family:"PT Sans", sans-serif;
 }
 
@@ -35,11 +35,18 @@ h1, h3{
     margin-right: auto;
 }
 
+a:hover {
+    background-color: #EFE3DF;
+}
+
 .pill-button {
     display: inline-block;
     background: #A38482;
     padding: 10px 30px 10px 30px;
     border-radius: 20px;
+    border-style: solid;
+    border-color: #5B453E;
+    border-width: 3px;
     color: black;
     font-weight: bold;
     text-decoration: none;
