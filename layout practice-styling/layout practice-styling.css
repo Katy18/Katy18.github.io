@@ -27,6 +27,7 @@ p {
 
 h1, h3{
     font-family:"PT Sans", sans-serif;
+    text-align:center;
 }
 .branding {
     background: none;
@@ -94,6 +95,7 @@ a:hover {
 
 .product-features, .product-buy-it-now {
   display: flex;
+  background: #ACBC99;
 }
 
 .feature {
@@ -137,6 +139,7 @@ footer {
   padding: 15px 10px 15px 10px;
   font-size: 12px;
   font-family:"PT Sans", sans-serif;
+  background-color: #EFE3DF;
 }
 
 .footer-links {
