@@ -14,5 +14,29 @@
 
 header { 
     display: flex;
+    background: yellow ;
+    
+}
+
+.pill-button {
+    font-family:"PT Sans", sans-serif;
+}
+
+p {
+    font-family: "Noto Serif", serif;
+}
+
+h1, h3{
+    font-family:"PT Sans", sans-serif;
+    text-align:center;
+}
+
+
+.pill-button {
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
 }
 
