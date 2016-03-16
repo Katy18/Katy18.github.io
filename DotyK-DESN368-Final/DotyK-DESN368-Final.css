@@ -2,10 +2,17 @@
     box-sizing: border-box;
 }
 
-.branding {
-    border: solid black 3px;
-    border-radius: 10px;
-    width: 500px;
-    float: right;
+.main-container {
+    width: 1000px;
+    margin: 0 auto 0 auto;
+}
+
+.promo-container {
+    
+    
+}
+
+header { 
+    display: flex;
 }
 
