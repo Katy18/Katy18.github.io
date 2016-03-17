@@ -18,11 +18,11 @@ header {
     font-family:"PT Sans", sans-serif;
 }
 
-p, p1. p3   {
+p, p1. p3, p4   {
     font-family: "Noto Serif", serif;
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4 h6{
     font-family:"PT Sans", sans-serif;
     text-align:center;
 }
@@ -113,7 +113,7 @@ p1 {
     margin-top: 70px;
     margin-left: -456px;
 }
-p3 {
+p3, p4 {
     position: relative;
     font-size: 15px;
     color: black;
@@ -121,4 +121,19 @@ p3 {
     margin-top: -10px;
     padding: 10px;
     text-align:center;
+}
+
+.feature-text {
+    display: inline-block;
+    text-align: left;
+    margin-top: px;
+    margin-right: 550px;
+}
+
+.view-image {
+    background: #EADC5C;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
 }
